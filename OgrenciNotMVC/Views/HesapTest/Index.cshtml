@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<form class="form-group" method="post">
+    <div class="form-group">
+        <label>Sayı 1:</label>
+        <input type="text" name="x" id="sayi1" />
+    </div>
+    <div class="form-group">
+        <label>Sayı 2:</label>
+        <input type="text" name="y" id="sayi2" />
+        <button class="btn btn-warning">Hesapla</button>
+        Sonuç: @ViewBag.snc
+    </div>
+</form>
